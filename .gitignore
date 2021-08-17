@@ -3,3 +3,6 @@
 .idea
 build
 out
+
+# Security
+application-oauth.properties

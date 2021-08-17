@@ -1,6 +1,6 @@
 buildscript{
     ext{
-        springBootVersion = '2.1.7.RELEASE'
+        springBootVersion = '2.1.9.RELEASE'
     }
     repositories{
         mavenCentral()
@@ -32,6 +32,8 @@ dependencies {
     compile('com.h2database:h2:1.4.197')
 
     compile('org.springframework.boot:spring-boot-starter-mustache')
+
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
